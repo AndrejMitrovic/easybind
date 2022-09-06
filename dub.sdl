@@ -1,0 +1,15 @@
+name "easybind"
+description "Example auto-generated dynamic bindings to PortAudio"
+authors "Andrej Mitrovic"
+copyright "Copyright © 2022, Andrej Mitrovic"
+license "Boost"
+targetType "executable"
+
+// Main file
+mainSourceFile "main.d"
+
+// ImportC stuff
+sourceFiles "portaudio/portaudio.c"
+
+// Outputs
+targetPath "bin"
